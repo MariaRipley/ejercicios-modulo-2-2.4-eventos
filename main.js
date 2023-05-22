@@ -40,3 +40,13 @@ inputText.addEventListener('input', () => {
     copyText.innerHTML = event.currentTarget.value;
 })
 
+//Ejercicio 2
+
+
+
+
+
+
+
+
+
