@@ -31,3 +31,12 @@ loremText.addEventListener('click', () => {
 })
 
 
+//Ejercicio 1
+
+const inputText = document.querySelector('.text');
+let copyText = document.querySelector('.copyText');
+
+inputText.addEventListener('input', () => {
+    copyText.innerHTML = event.currentTarget.value;
+})
+
