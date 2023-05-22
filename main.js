@@ -21,3 +21,13 @@ changingButton.addEventListener('click', () => {
     changingButton.classList.toggle('style');
 })
 
+//Ejercicio 3
+
+const loremText = document.querySelector('.text-1');
+const loremTextB = document.querySelector('.text-2');
+
+loremText.addEventListener('click', () => {
+    loremTextB.classList.toggle('hidden');
+})
+
+
